@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		A4B0811B2A1DBC7600EFF7DF /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = A4B0811A2A1DBC7600EFF7DF /* main.c */; };
+		A4B081492A23958F00EFF7DF /* huffman.c in Sources */ = {isa = PBXBuildFile; fileRef = A4B081482A23958F00EFF7DF /* huffman.c */; };
+		A4B0814B2A2396F400EFF7DF /* test.c in Sources */ = {isa = PBXBuildFile; fileRef = A4B0814A2A2396F400EFF7DF /* test.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,9 @@
 /* Begin PBXFileReference section */
 		A4B081172A1DBC7600EFF7DF /* 230524 Huffman */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "230524 Huffman"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4B0811A2A1DBC7600EFF7DF /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		A4B081472A23958F00EFF7DF /* huffman.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = huffman.h; sourceTree = "<group>"; };
+		A4B081482A23958F00EFF7DF /* huffman.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = huffman.c; sourceTree = "<group>"; };
+		A4B0814A2A2396F400EFF7DF /* test.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = test.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,9 @@
 			isa = PBXGroup;
 			children = (
 				A4B0811A2A1DBC7600EFF7DF /* main.c */,
+				A4B081472A23958F00EFF7DF /* huffman.h */,
+				A4B081482A23958F00EFF7DF /* huffman.c */,
+				A4B0814A2A2396F400EFF7DF /* test.c */,
 			);
 			path = "230524 Huffman";
 			sourceTree = "<group>";
@@ -119,7 +127,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4B0814B2A2396F400EFF7DF /* test.c in Sources */,
 				A4B0811B2A1DBC7600EFF7DF /* main.c in Sources */,
+				A4B081492A23958F00EFF7DF /* huffman.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,7 +249,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				MACOSX_DEPLOYMENT_TARGET = 12.4;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -248,7 +257,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				MACOSX_DEPLOYMENT_TARGET = 12.4;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
